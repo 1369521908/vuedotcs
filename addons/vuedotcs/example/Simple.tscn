@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://b8owu4q184wg1"]
+
+[ext_resource type="Script" uid="uid://begn86ygobso2" path="res://addons/vuedotcs/example/Main.cs" id="1_w0dsd"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_pvict"]
+font_size = 90
+
+[node name="Simple" type="Node2D" unique_id=780300243]
+script = ExtResource("1_w0dsd")
+
+[node name="LabelComputed" type="Label" parent="." unique_id=27830025]
+offset_left = 287.0
+offset_top = 205.0
+offset_right = 1159.0
+offset_bottom = 370.0
+theme_override_font_sizes/font_size = 120
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="." unique_id=1972446094]
+offset_left = 298.0
+offset_top = 382.0
+offset_right = 1148.0
+offset_bottom = 574.0
+theme_override_font_sizes/font_size = 120
+text = "1"
+label_settings = SubResource("LabelSettings_pvict")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LineEdit2" type="LineEdit" parent="." unique_id=2004465725]
+offset_left = 746.0
+offset_top = 22.0
+offset_right = 1088.0
+offset_bottom = 135.0
+theme_override_font_sizes/font_size = 50
+
+[node name="LineEdit" type="LineEdit" parent="." unique_id=2063039254]
+offset_left = 310.0
+offset_top = 23.0
+offset_right = 652.0
+offset_bottom = 136.0
+theme_override_font_sizes/font_size = 50
+
+[node name="ColorPicker" type="ColorPicker" parent="." unique_id=1233606050]
+offset_right = 298.0
+offset_bottom = 607.0
+
+[node name="ColorPicker2" type="ColorPicker" parent="." unique_id=782693943]
+offset_left = 312.0
+offset_top = 145.0
+offset_right = 610.0001
+offset_bottom = 752.0
+scale = Vector2(0.8, 0.8)
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1327085764]
+offset_left = 829.0
+offset_top = 213.0
+offset_right = 1084.0
+offset_bottom = 360.0
+
+[node name="Button" type="Button" parent="." unique_id=81109036]
+offset_left = 830.0
+offset_top = 161.0
+offset_right = 934.0
+offset_bottom = 192.0
+text = "清空所有数据"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
