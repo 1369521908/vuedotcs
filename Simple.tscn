@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b8owu4q184wg1"]
 
-[ext_resource type="Script" uid="uid://begn86ygobso2" path="res://addons/vuedotcs/example/Main.cs" id="1_w0dsd"]
+[ext_resource type="Script" uid="uid://begn86ygobso2" path="res://Main.cs" id="1_w0dsd"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_pvict"]
 font_size = 90
